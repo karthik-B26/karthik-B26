@@ -1,0 +1,40 @@
+# Generates the animated "snake eating your contributions" SVG referenced
+# in README.md. Place this file at:
+#   .github/workflows/snake.yml
+# inside your profile repo (must be named exactly "karthik-b26").
+# It runs automatically every 6 hours and on every push to main.
+
+name: Generate Snake Animation
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch: {}
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate snake SVGs
+        uses: Platane/snk@v3
+        id: snake-gif
+        with:
+          github_user_name: karthik-b26
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
