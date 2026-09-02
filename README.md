@@ -167,7 +167,9 @@ I'm **Karthik Boppana** — a student engineer who designs and ships **modern, s
 
 <br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=karthik-B26&theme=tokyo-night&hide_border=true&area=true&bg_color=1a1b26" alt="Contribution Activity Graph" width="97%"/>
+<img src="./profile/activity.svg"
+     alt="Contribution Activity Graph"
+     width="97%"/>
 
 </div>
 
