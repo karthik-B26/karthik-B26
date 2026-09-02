@@ -158,8 +158,8 @@ I'm **Karthik Boppana** — a student engineer who designs and ships **modern, s
      earlier in this chat. -->
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=karthik-B26&show_icons=true&theme=tokyonight&bg_color=1a1b26&title_color=7aa2f7&icon_color=7dcfff&text_color=c0caf5&border_radius=10" alt="GitHub Stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=karthik-B26&layout=compact&theme=tokyonight&bg_color=1a1b26&title_color=7aa2f7&icon_color=7dcfff&text_color=c0caf5&border_radius=10" alt="Top Languages" />
+<img height="165" src="./profile/stats.svg" alt="GitHub Stats" />
+<img height="165" src="./profile/top-langs.svg" alt="Top Languages" />
 
 <br/>
 
