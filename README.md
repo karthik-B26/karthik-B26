@@ -4,7 +4,7 @@
 <!--  Snake animation setup: see snake.yml (provided separately).   -->
 <!-- ================================================================ -->
 
-<!-- ===================== ANIMATED HERO BANNER ===================== -->
+<!-- ===================== ANIMATED HERO BANNER ===================== --
 <!-- Custom SVG hosted in this repo, served via jsDelivr (raw.githubusercontent.com
      serves .svg as text/plain and won't render as an image — jsDelivr fixes that). -->
 <p align="center">
